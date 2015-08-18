@@ -1,6 +1,7 @@
 app.directive("navbar", function(){
 	return {
 		restrict: "E",
-		templateUrl: "/pre-build/navbar/navbar.html"
+		templateUrl: "/pre-build/navbar/navbar.html",
+    controller: "NavbarController"
 	};
 });
