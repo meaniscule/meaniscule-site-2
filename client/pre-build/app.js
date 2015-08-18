@@ -7,18 +7,23 @@ app.config(function ($urlRouterProvider, $locationProvider, $translateProvider) 
   $urlRouterProvider.otherwise('/');
 
   // Translations!
-  $translateProvider.translations('en', {
-    'BRANDING_AND_NAV': {
-      'TITLE': 'Meaniscule',
-      'TAG-LINE': 'Meaniscule = miniscule + MEAN stack generator'
-    }
-  });
+  // $translateProvider.translations('en', {
+  //   'BRANDING_AND_NAV': {
+  //     'TITLE': 'Meaniscule',
+  //     'TAG-LINE': 'Meaniscule = miniscule + MEAN stack generator'
+  //   }
+  // });
  
-  $translateProvider.translations('ja', {
-    'BRANDING_AND_NAV': {
-      'TITLE': 'ミーナスキュール',
-      'TAG-LINE': 'ミーナスキュール = miniscule (ちっこい) + MEAN スタック・ジェネレーター'
-    }
+  // $translateProvider.translations('ja', {
+  //   'BRANDING_AND_NAV': {
+  //     'TITLE': 'ミーナスキュール',
+  //     'TAG-LINE': 'ミーナスキュール = miniscule (ちっこい) + MEAN スタック・ジェネレーター'
+  //   }
+  // });
+
+  $translateProvider.useStaticFilesLoader({
+    prefix: 'locale-',
+    suffix: '.json'
   });
 
   $translateProvider.preferredLanguage('en');
