@@ -1,22 +1,31 @@
 <nav class="navbar navbar-inverse">
   <div class="container">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-list" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
       <img src="favicon.ico" class="pull-left img-responsive logo">
       <a href="#" ui-sref="home" class="navbar-brand" translate="BRANDING_AND_NAV.TITLE"></a>
     </div>
     
-    <ul class="nav navbar-nav pull-right">
-      <!-- <a>'s with `ui-sref` attributes that refer to other states go here -->
-      <li>
-        <a href="#" ng-click="changeLanguage('en')">English</a>
-      </li> 
-      <li>
-        <a href="#" ng-click="changeLanguage('ja')">日本語</a>
-      </li> 
-      <li>
-        <a href="http://ashryanbeats.com">Made with ア! by Ash Ryan Beats</a>
-      </li> 
-     
-    </ul>
+    <div class="collapse navbar-collapse" id="nav-list">
+      <ul class="nav navbar-nav pull-right">
+        <!-- <a>'s with `ui-sref` attributes that refer to other states go here -->
+        <li>
+          <a href="#" ng-click="changeLanguage('en')">English</a>
+        </li> 
+        <li>
+          <a href="#" ng-click="changeLanguage('ja')">日本語</a>
+        </li> 
+        <li>
+          <a href="http://ashryanbeats.com">Made with ア! by Ash Ryan Beats</a>
+        </li> 
+       
+      </ul>
+    </div>
   </div>
 </nav>
