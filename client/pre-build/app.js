@@ -1,4 +1,4 @@
-var app = angular.module('Meaniscule', ['ui.router', 'pascalprecht.translate']);
+var app = angular.module('Meaniscule', ['ui.router', 'pascalprecht.translate', 'ngSanitize']);
 
 app.config(function ($urlRouterProvider, $locationProvider, $translateProvider) {
   // This turns off hashbang urls (/#about) and changes it to something normal (/about)
@@ -13,5 +13,5 @@ app.config(function ($urlRouterProvider, $locationProvider, $translateProvider) 
 
   $translateProvider.preferredLanguage('en');
 
-  $translateProvider.useSanitizeValueStrategy('escape');
+  $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
 });

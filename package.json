@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "angular": "^1.4.1",
+    "angular-sanitize": "^1.4.4",
     "angular-translate": "^2.7.2",
     "angular-translate-loader-static-files": "^2.7.2",
     "angular-ui-router": "^0.2.15",

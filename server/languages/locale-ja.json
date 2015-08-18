@@ -2,5 +2,20 @@
   "BRANDING_AND_NAV": {
     "TITLE": "ミーナスキュール",
     "TAG-LINE": "ミーナスキュール = miniscule (ちっこい) + MEAN スタック・ジェネレーター"
+  },
+  "HOME": {
+    "SECTION-1": {
+      "HEADING-1": "はじめまして。ミーナスキュールです！",
+      "PAR-1": "I'm just a simple MEAN stack wireframe for a quick start at making something.",
+      "PAR-2": "I'm great for:",
+      "LI-1": "mini apps/hackathons",
+      "LI-2": "brainstorming/proof-of-concept",
+      "LI-3": "sandboxing early new features"
+    },
+    "SECTION-2": {
+      "HEADING-1": "Let's make greatness happen!",
+      "PAR-1": "For directions on how to install and use me, <a href='https://github.com/ashryanbeats/meaniscule'>check out my repo on GitHub</a>.",
+      "PAR-2": "The <i>README</i> should help you get up and running quickly!"
+    }
   }
 }
