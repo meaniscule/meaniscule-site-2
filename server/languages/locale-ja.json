@@ -6,16 +6,16 @@
   "HOME": {
     "SECTION-1": {
       "HEADING-1": "はじめまして。ミーナスキュールです！",
-      "PAR-1": "I'm just a simple MEAN stack wireframe for a quick start at making something.",
-      "PAR-2": "I'm great for:",
-      "LI-1": "mini apps/hackathons",
-      "LI-2": "brainstorming/proof-of-concept",
-      "LI-3": "sandboxing early new features"
+      "PAR-1": "早期に結果を作り出すためのMEANスタックのワイヤフレームです。",
+      "PAR-2": "こんな場面でも使ってみてね！",
+      "LI-1": "ハッカソン",
+      "LI-2": "アイディアの書き出し",
+      "LI-3": "新しい機能のサンドボックス"
     },
     "SECTION-2": {
-      "HEADING-1": "Let's make greatness happen!",
-      "PAR-1": "For directions on how to install and use me, <a href='https://github.com/ashryanbeats/meaniscule'>check out my repo on GitHub</a>.",
-      "PAR-2": "The <i>README</i> should help you get up and running quickly!"
+      "HEADING-1": "じゃ、一緒にいい物を創りだそう！",
+      "PAR-1": "インストールの手順や使い方については<a href='https://github.com/ashryanbeats/meaniscule'>GitHubのリポジトリをご覧ください</a>。",
+      "PAR-2": "詳しいことは<i>「README」</i>で書いてあります！"
     }
   }
 }
