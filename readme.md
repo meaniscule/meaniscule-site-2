@@ -17,7 +17,7 @@ The site *is not* the default Meaniscule app. It is a demonstration of something
 ### i18n
 The live site supports [i18n](https://en.wikipedia.org/wiki/Internationalization_and_localization) and is localized in English and Japanese.
 
-The i18n support is made possible by the magic of `[angular-translate](https://angular-translate.github.io/)`. 
+The i18n support is made possible by the magic of [`angular-translate`](https://angular-translate.github.io/). 
 
 The source code is here for you to peruse, but feel free to get in touch if you have questions about i18n or L10n for Angular.
 
