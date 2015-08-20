@@ -21,5 +21,7 @@ The i18n support is made possible by the magic of [`angular-translate`](https://
 
 The source code is here for you to peruse, but feel free to get in touch if you have questions about i18n or L10n for Angular.
 
+If you're using `angular-translate` and are having trouble with mojibake (non-latin alphabet characters getting garbled), [read this post I wrote on how you might deal with that problem](http://ashryanbeats.com/avoiding-mojibake-with-angular-translate/).
+
 ### Bootstrap styles
 The site has some *very* basic Bootstrap styles that aren't included in the default Meaniscule app (because you might not want them). They are here on the site and site repo for demonstration purposes.
