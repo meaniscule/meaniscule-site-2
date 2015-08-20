@@ -1,7 +1,8 @@
 {
   "BRANDING_AND_NAV": {
     "TITLE": "ミーナスキュール",
-    "TAG-LINE": "ミーナスキュール = miniscule (ちっこい) + MEAN スタック・ジェネレーター"
+    "TAG-LINE": "ミーナスキュール = miniscule (ちっこい) + MEAN スタック・ジェネレーター",
+    "DEPLOY": "デプロイメント"
   },
   "HOME": {
     "SECTION-1": {
@@ -16,6 +17,14 @@
       "HEADING-1": "じゃ、一緒にいい物を創りだそう！",
       "PAR-1": "インストールの手順や使い方については<a href='https://github.com/ashryanbeats/meaniscule'>GitHubのリポジトリをご覧ください</a>。",
       "PAR-2": "詳しいことは<i>「README」</i>に書いてあります！"
+    }
+  },
+  "DEPLOYER": {
+    "SECTION-1": {
+      "HEADING-1": "簡単にDigital Oceanへデプロイ！",
+      "PAR-1": "I make it easy to deploy to Digital Ocean with my <a href='https://github.com/meaniscule/digital-ocean-deployer/'>Digital Ocean Deployer script</a>.",
+      "PAR-2": "All you have to do is answer a few questions and the deployer takes care of the rest. Easy!",
+      "PAR-3": "<a href='https://github.com/meaniscule/digital-ocean-deployer/'>Check out the <i>README</i> on GitHub</a> for info on how to use the Digital Ocean Deployer."
     }
   }
 }

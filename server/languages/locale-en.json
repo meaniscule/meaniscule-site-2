@@ -1,7 +1,8 @@
 {
   "BRANDING_AND_NAV": {
     "TITLE": "Meaniscule",
-    "TAG-LINE": "Meaniscule = miniscule + MEAN stack generator"
+    "TAG-LINE": "Meaniscule = miniscule + MEAN stack generator",
+    "DEPLOY": "Deploy"
   },
   "HOME": {
     "SECTION-1": {
