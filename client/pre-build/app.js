@@ -11,7 +11,13 @@ app.config(function ($urlRouterProvider, $locationProvider, $translateProvider) 
     suffix: '.json'
   });
 
-  $translateProvider.preferredLanguage('en');
+  $translateProvider
+    .registerAvailableLanguageKeys(['en', 'ja'], {
+      'en_US': 'en',
+      'en_UK': 'en',
+      'ja_JP': 'ja'
+    })
+    .determinePreferredLanguage();
 
   $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
 });
