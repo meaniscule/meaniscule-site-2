@@ -2,7 +2,8 @@
   "BRANDING_AND_NAV": {
     "TITLE": "ミーナスキュール",
     "TAG-LINE": "ミーナスキュール = miniscule (ちっこい) + MEAN スタック・ジェネレーター",
-    "DEPLOY": "デプロイメント"
+    "DEPLOY": "デプロイメント",
+    "SET-LANG": "言語設定"
   },
   "HOME": {
     "SECTION-1": {
