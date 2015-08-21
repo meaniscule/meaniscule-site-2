@@ -18,18 +18,3 @@
   }
 }
 
-@media (max-width: 768px) {
-  .lang-list {
-    float: left;
-  }
-  ul {
-    display: inline-block;
-    padding-right: 15px
-  }
-}
-
-@media (min-width: 769px) {
-  .lang-list {
-    float: right;
-  }
-}
