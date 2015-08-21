@@ -22,9 +22,9 @@
   "DEPLOYER": {
     "SECTION-1": {
       "HEADING-1": "簡単にDigital Oceanへデプロイ！",
-      "PAR-1": "I make it easy to deploy to Digital Ocean with my <a href='https://github.com/meaniscule/digital-ocean-deployer/'>Digital Ocean Deployer script</a>.",
-      "PAR-2": "All you have to do is answer a few questions and the deployer takes care of the rest. Easy!",
-      "PAR-3": "<a href='https://github.com/meaniscule/digital-ocean-deployer/'>Check out the <i>README</i> on GitHub</a> for info on how to use the Digital Ocean Deployer."
+      "PAR-1": "<a href='https://github.com/meaniscule/digital-ocean-deployer/'>Digital Oceanデプロイメント。スクリプト</a>を活用するとデプロイメントは楽になります。",
+      "PAR-2": "質問をいくつか答えるだけで、残りの作業をスクリプトに任せてください。ラクラク！",
+      "PAR-3": "詳しいことは<a href='https://github.com/meaniscule/digital-ocean-deployer/'>GitHubのリポジトリの<i>「README」</i>をご覧ください</a>"
     }
   }
 }
