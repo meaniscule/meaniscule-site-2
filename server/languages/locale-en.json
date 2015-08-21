@@ -1,7 +1,8 @@
 {
   "BRANDING_AND_NAV": {
     "TITLE": "Meaniscule",
-    "TAG-LINE": "Meaniscule = miniscule + MEAN stack generator"
+    "TAG-LINE": "Meaniscule = miniscule + MEAN stack generator",
+    "DEPLOY": "Deploy"
   },
   "HOME": {
     "SECTION-1": {
@@ -17,5 +18,13 @@
       "PAR-1": "For directions on how to install and use me, <a href='https://github.com/ashryanbeats/meaniscule'>check out my repo on GitHub</a>.",
       "PAR-2": "The <i>README</i> should help you get up and running quickly!"
     }
+  },
+  "DEPLOYER": {
+    "SECTION-1": {
+      "HEADING-1": "Deploy to Digital Ocean with ease!",
+      "PAR-1": "I make it easy to deploy to Digital Ocean with my <a href='https://github.com/meaniscule/digital-ocean-deployer/'>Digital Ocean Deployer script</a>.",
+      "PAR-2": "All you have to do is answer a few questions and the deployer takes care of the rest. Easy!",
+      "PAR-3": "<a href='https://github.com/meaniscule/digital-ocean-deployer/'>Check out the <i>README</i> on GitHub</a> for info on how to use the Digital Ocean Deployer."
+    }
   }
-}
+} 

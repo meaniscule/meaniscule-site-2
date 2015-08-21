@@ -13,7 +13,7 @@ var babel = require('gulp-babel');
 // Live reload
 gulp.task('reload', function() {
     livereload.reload();
-})
+});
 
 // Default
 gulp.task('default', function() {
@@ -33,7 +33,9 @@ gulp.task('default', function() {
 
     gulp.watch(['server/**/*.js'], ['testServerJS']);
 
-});
+    gulp.watch(['server/languages/*.json'], ['reload']);
+
+}); 
 
 
 // Database seed
