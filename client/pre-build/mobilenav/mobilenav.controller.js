@@ -1,3 +1,3 @@
-app.controller('MobileNavController', function($scope, $translate) {
+app.controller('MobileNavController', function($scope, $translate, $state) {
 
 });

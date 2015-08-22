@@ -1,11 +1,22 @@
 <nav class="hidden-sm hidden-md hidden-lg hidden-xl">
 
   <ul class="nav nav-tabs nav-justified" role="tablist">
-    <li role="presentation">
+    <li role="presentation" ui-sref-active="active">
       <a href="#" ui-sref="home" aria-controls="meaniscule-home" role="tab" translate="BRANDING_AND_NAV.TITLE"></a>
     </li>
-    <li role="presentation">
+    <li role="presentation" ui-sref-active="active">
       <a href="#" ui-sref="deployer" aria-controls="deployer" role="tab" translate="BRANDING_AND_NAV.DEPLOY"></a>
+    </li>
+    <li role="menu" class="dropdown">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span translate="BRANDING_AND_NAV.SET-LANG"></span><span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="#" ng-click="changeLanguage('en')">English</a>
+        </li> 
+        <li>
+          <a href="#" ng-click="changeLanguage('ja')">日本語</a>
+        </li> 
+      </ul>
     </li>
   </ul>
 
