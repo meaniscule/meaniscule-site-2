@@ -5,9 +5,12 @@
   
   @media (max-width: 768px) {
     background-image: url('jumbotron-sm.jpg');
+    margin-bottom: 0;
+
     h1 {
       font-size: 40px;
     }
+
     p {
       font-size: 16px;
     }
