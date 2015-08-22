@@ -4,8 +4,27 @@
   background-repeat: no-repeat;
   @media (max-width: 768px) {
     background-image: url('jumbotron-sm.jpg');
-    p {
-      font-size: 15px;
+    h1 {
+      font-size: 40px;
     }
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .container {
+    background-color: hsla(360, 0%, 90%, 0.8);
+    border-radius: 10px;
+    color: #fff; 
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 10px 20px -8px hsla(0, 0%, 60%, 1);
+
+    @media (max-width: 768px) {
+      border-radius: 0;
+    }
+  }
+  h1, p {
+    color: #444444;
   }
 }
