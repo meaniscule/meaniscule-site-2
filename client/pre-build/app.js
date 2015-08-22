@@ -17,7 +17,8 @@ app.config(function ($urlRouterProvider, $locationProvider, $translateProvider) 
       'en_UK': 'en',
       'ja_JP': 'ja'
     })
-    .determinePreferredLanguage();
+    .determinePreferredLanguage()
+    .fallbackLanguage(['en']);
 
   $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
 
