@@ -6,21 +6,33 @@ app.config(function ($urlRouterProvider, $locationProvider, $translateProvider) 
   // If we go to a URL that ui-router doesn't have registered, go to the "/" url.
   $urlRouterProvider.otherwise('/');
 
-  $translateProvider.useStaticFilesLoader({
+
+  // i18n SETTINGS
+  
+  // Tell translateProvider what translation file names to look for
+  // Used by $translateProvider.useStaticFilesLoader()
+  var fileNameConvention = {
     prefix: 'locale-',
     suffix: '.json'
-  });
+  };
+
+  // Map browser language codes (`navigator.languages[0]`) to our app's language codes
+  // Used by $translateProvider.registerAvailableLanguageKeys()
+  var langMap = {
+      'en_AU': 'en',
+      'en_CA': 'en',
+      'en_NZ': 'en',
+      'en_PH': 'en',
+      'en_UK': 'en',
+      'en_US': 'en',
+      'ja_JP': 'ja'
+  };
 
   $translateProvider
-    .registerAvailableLanguageKeys(['en', 'ja'], {
-      'en_US': 'en',
-      'en_UK': 'en',
-      'ja_JP': 'ja'
-    })
-    .determinePreferredLanguage()
-    .fallbackLanguage(['en']);
-
-  $translateProvider.useSanitizeValueStrategy('sanitizeParameters');
-
-  $translateProvider.useCookieStorage();
+    .useStaticFilesLoader(fileNameConvention)
+    .registerAvailableLanguageKeys(['en', 'ja'], langMap)
+    .determinePreferredLanguage() // Get the user's system language
+    .fallbackLanguage(['en']) // If their system uses a lang we don't support, fall back to this lang
+    .useCookieStorage() // Store the user's lang preference
+    .useSanitizeValueStrategy('sanitizeParameters'); // Prevent hacking of interpoloated strings
 });
