@@ -1,0 +1,7 @@
+.jumbotron {
+  p {
+    @media (max-width: 768px) {
+      font-size: 15px;
+    }
+  }
+}
