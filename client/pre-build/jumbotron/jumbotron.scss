@@ -1,6 +1,10 @@
 .jumbotron {
-  p {
-    @media (max-width: 768px) {
+  background-image: url('jumbotron-lg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media (max-width: 768px) {
+    background-image: url('jumbotron-sm.jpg');
+    p {
       font-size: 15px;
     }
   }
