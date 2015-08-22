@@ -24,7 +24,13 @@ h2 {
 
 // Use #ui-view to push the footer to at least the bottom of the view height
 #ui-view {
-  min-height: calc(100vh - 450px);
+  @media (min-width: 769px) {
+    min-height: calc(100vh - 450px);
+  }
+
+  @media (max-width: 768px) {
+    min-height: calc(100vh - 342px);   
+  }  
 }
 
 // Add your fractal Sass files below!
