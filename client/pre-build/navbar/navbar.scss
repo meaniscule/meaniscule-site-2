@@ -6,7 +6,7 @@
 .logo {
   display: block;
   margin-right: 7px;
-  margin-top: 8px;
+  margin-top: 14px;
   //display: block;
   width: 35px;
   // img {
@@ -15,6 +15,7 @@
   // }
   @media (max-width: 768px) {
     margin-left: 15px;
+    margin-right: 0;
   }
 }
 
