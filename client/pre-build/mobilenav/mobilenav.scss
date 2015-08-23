@@ -1,7 +1,18 @@
-.nav-justified > li {
-  display: table-cell;
-  width: 1%;
-}
-.nav-justified > li > a {
-  margin-bottom: 0;
+#mobilenav {
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+    white-space: nowrap;
+  }
+  
+  .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 350px){
+    a {
+      font-size: 11px;
+      padding: 10px 3px;
+    }
+  }
 }
